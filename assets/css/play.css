@@ -1,0 +1,36 @@
+input {
+    width: 170px;
+    font-size: 110px;
+    margin: 5px;
+    height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fixed-bottom .container {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    background-color: #333;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.fixed-bottom .container .header-footer {
+    height: 0.5rem;
+    width: 100%;
+    max-width: 25%;
+    border-radius: 0.5rem;
+    background-color: #dabb65;
+    margin: auto auto 1rem;
+}
+
+.w-600 {
+    width: 600px !important;
+}
+
+h1,
+.h1 {
+    font-size: 160px !important;
+    text-transform: uppercase;
+}
